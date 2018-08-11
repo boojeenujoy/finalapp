@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Sampleapp",
+    "description": "A soil sampling app.",
+    "slug": "sampleapp",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icons/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "hips.samp.app",
+      "supportsTablet": true,
+    },
+    "android": {
+    "package": "hips.samp.app",
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyBHYknLWf-jh5uvnIyxpV5rqcmt2vuZrkE"
+      }
+    }
+    }
+  }
+}
